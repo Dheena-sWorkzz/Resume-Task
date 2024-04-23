@@ -4,10 +4,10 @@ import boto3
 
 app = Flask(__name__)
 
-AWS_ACCESS_KEY_ID = 'AKIA47CRXHMMOAC4R76H'
-AWS_SECRET_ACCESS_KEY = 'qrVhwmKzDYz73A4aD2983FxIyFc+eTErkrFsnDDk'
+AWS_ACCESS_KEY_ID = 'Your acccess key'
+AWS_SECRET_ACCESS_KEY = 'Your secret key'
 AWS_REGION = 'us-east-1'
-S3_BUCKET = 'image-take'
+S3_BUCKET = 'Your bucket name'
 
 @app.route('/')
 def index():
