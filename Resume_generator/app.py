@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 AWS_ACCESS_KEY_ID = 'Your acccess key'
 AWS_SECRET_ACCESS_KEY = 'Your secret key'
-AWS_REGION = 'us-east-1'
+AWS_REGION = 'your region'
 S3_BUCKET = 'Your bucket name'
 
 @app.route('/')
